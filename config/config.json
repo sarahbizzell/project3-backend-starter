@@ -7,7 +7,7 @@
   },
   "production": {
     "database": "project3-backend-test-production",
-    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "operatorsAliases": false
   }
