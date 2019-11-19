@@ -9,21 +9,21 @@
 
 <br>
 
-## Create Free Heroku Account
-
-[Heroku Homepage](https://devcenter.heroku.com/)
-
-![](https://i.imgur.com/hPAtUfN.png)
-
-## Install the Heroku CLI
-
-[Install Docs](https://devcenter.heroku.com/articles/heroku-cli)
-
-<br>
-
 ## Express Backend Set-up
 
-[Heroku Node/Express Deployment Docs](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)
+#### To Install
+
+- Fork and clone `https://git.generalassemb.ly/Interapt/project3-backend-starter`
+- `cd` into the app and `npm install`
+- Run `npm start`. 
+- From the command line run `createdb project3-backend-development`
+
+#### Starter End Points
+
+You have two starter endpoints:
+
+- `GET` `api/users`
+- `POST` `api/users`
 
 - Your `config/config/json` is set-up to access the Heroku Postgres production database instance.
 
@@ -41,22 +41,8 @@
 }
 ```
 
-- Also syncing the Sequelize models so that the tables will automatically be created:
-
-```js
-var db = require('./models');
-db.sequelize.sync();
-```
-
 - This app also has `cors` and `nodemon` installed.
 - [Sequelize Cheatsheet](https://gist.github.com/vapurrmaid/a111bf3fc0224751cb2f76532aac2465)
-
-#### Starter End Points
-
-You have two starter endpoints:
-
-- `GET` `api/users`
-- `POST` `api/users`
 
 
 #### Test the endpoints with Postman
@@ -126,6 +112,30 @@ The app has axios installed. You have one method called `getUsers` that hits you
 #### Database URL
 
 For security, we'll add the Heroku Postgres URL add heroku env variable to heroku dashboard
+
+<br>
+
+# Heroku 
+
+## Create Free Heroku Account
+
+[Heroku Homepage](https://devcenter.heroku.com/)
+
+![](https://i.imgur.com/hPAtUfN.png)
+
+## Install the Heroku CLI
+
+[Install Docs](https://devcenter.heroku.com/articles/heroku-cli)
+
+[Heroku Node/Express Deployment Docs](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)
+
+
+- Also syncing the Sequelize models so that the tables will automatically be created:
+
+```js
+var db = require('./models');
+db.sequelize.sync();
+```
 
 <br>
 
