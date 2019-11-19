@@ -110,12 +110,22 @@ https://project3-backend-test.herokuapp.com/users
 
 ## React Frontend Set-up
 
-Your app has axios installed.
+#### To Install
+
+- Fork and clone `https://git.generalassemb.ly/Interapt/project3-frontend-starter`
+- `cd` into the app and `npm install`
+- Run `npm start`. You should see this in the browser:
+
+![](https://i.imgur.com/7CLkUI4.png)
+
+
+#### Axios
+
+The app has axios installed. You have one method called `getUsers` that hits your Express backend `api/users`. Check the broowser console for the response.
 
 #### Database URL
 
-For security, we'll add the Heroku Postgres URL
-add heroku env variable to heroku dashboard
+For security, we'll add the Heroku Postgres URL add heroku env variable to heroku dashboard
 
 <br>
 
