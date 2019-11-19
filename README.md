@@ -1,4 +1,13 @@
-## GitHub Projects
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
+
+# Project 3 Backend Starter Code
+
+## Project 3 Starter Code Links
+
+- [Node/Express Backend Starter App](https://git.generalassemb.ly/Interapt/project3-backend-starter)
+- [React Frontend Starter App](https://git.generalassemb.ly/Interapt/project3-frontend-starter)
+
+<br>
 
 ## Create Free Heroku Account
 
