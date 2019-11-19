@@ -2,7 +2,7 @@
 
 # Project 3 Backend Starter Code
 
-## Project 3 Starter Code Links
+#### Project 3 Starter Code Links
 
 - [Node/Express Backend Starter App](https://git.generalassemb.ly/Interapt/project3-backend-starter)
 - [React Frontend Starter App](https://git.generalassemb.ly/Interapt/project3-frontend-starter)
