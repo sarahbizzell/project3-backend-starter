@@ -5,7 +5,6 @@
     "dialect": "postgres"
   },
   "production": {
-    "database": "project3-backend-test-production",
     "use_env_variable": "DATABASE_URL",
     "dialect": "postgres"
   }
