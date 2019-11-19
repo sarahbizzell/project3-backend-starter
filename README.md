@@ -51,8 +51,15 @@ db.sequelize.sync();
 - This app also has `cors` and `nodemon` installed.
 - [Sequelize Cheatsheet](https://gist.github.com/vapurrmaid/a111bf3fc0224751cb2f76532aac2465)
 
+#### Starter End Points
 
-#### Test the endpoint with Postman
+You have two starter endpoints:
+
+- `GET` `api/users`
+- `POST` `api/users`
+
+
+#### Test the endpoints with Postman
 
 ![](https://i.imgur.com/MhV0c4U.png)
 
