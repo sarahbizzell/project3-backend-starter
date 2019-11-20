@@ -1,6 +1,6 @@
 {
   "development": {
-    "database": "project3-backend-test-development",
+    "database": "project3-backend-dev",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
