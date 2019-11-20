@@ -50,50 +50,7 @@ You have two starter endpoints:
 
 ![](https://i.imgur.com/MhV0c4U.png)
 
-#### Connect to your production server Terminal
-
-Run this command from your back end app folder: `heroku run bash`
-
-From here you can run commands like `sequelize db:migrate` or `sequelize db:seed:all`
-
-https://project3-backend-test.herokuapp.com/users
-
-
 <br>
-
-## Connect Heroku DB to PG Admin
-
-#### Heroku Stuff
-
-- Right click on `Servers` and select Create > Server...
-
-![](https://i.imgur.com/JWvG2Nz.png)
-
-- On your Heroku App dashboard, click on Heroku Postgres
-
-![](https://i.imgur.com/5l5Gq6s.png)
-
-- On the next screen choose Settings, then View Database Credentials
-
-![](https://i.imgur.com/iikLgfj.png)
-
-#### PG Admin Stuff
-
-- In the `Name` field, enter the name of your database.
-
-![](https://i.imgur.com/Lzp0zlC.png)
-
-- In the `Connection` Tab:
-	
-	- `Hostname/Address` is your Heroku Postgres `Host`
-	- `Maintenance Database` is your Heroku Postgres `Database`
-	- `Username` is your Heroku Postgres `User`
-
-![](https://i.imgur.com/hQQB2MM.png)
-
-
-<br>
-
 
 ## React Frontend Set-up
 
@@ -108,11 +65,8 @@ https://project3-backend-test.herokuapp.com/users
 
 #### Axios
 
-The app has axios installed. You have one method called `getUsers` that hits your Express backend `api/users`. Check the broowser console for the response.
+The app has axios installed. You have one method called `getUsers` that hits your Express backend `api/users`. Check the browser console for the response.
 
-#### Database URL
-
-For security, we'll add the Heroku Postgres URL add heroku env variable to heroku dashboard
 
 <br>
 
@@ -139,6 +93,50 @@ db.sequelize.sync();
 ```
 
 <br>
+## Connect Heroku DB to PG Admin
+
+#### Heroku Stuff
+
+- Right click on `Servers` and select Create > Server...
+
+![](https://i.imgur.com/JWvG2Nz.png)
+
+- On your Heroku App dashboard, click on Heroku Postgres
+
+![](https://i.imgur.com/5l5Gq6s.png)
+
+- On the next screen choose Settings, then View Database Credentials
+
+![](https://i.imgur.com/iikLgfj.png)
+
+#### Database URL
+
+For security, we'll add the Heroku Postgres URL add heroku env variable to heroku dashboard
+
+#### PG Admin Stuff
+
+- In the `Name` field, enter the name of your database.
+
+![](https://i.imgur.com/Lzp0zlC.png)
+
+- In the `Connection` Tab:
+	
+	- `Hostname/Address` is your Heroku Postgres `Host`
+	- `Maintenance Database` is your Heroku Postgres `Database`
+	- `Username` is your Heroku Postgres `User`
+
+![](https://i.imgur.com/hQQB2MM.png)
+
+
+<br>
+
+#### Connect to your production server Terminal
+
+Run this command from your back end app folder: `heroku run bash`
+
+From here you can run commands like `sequelize db:migrate` or `sequelize db:seed:all`
+
+https://project3-backend-test.herokuapp.com/users
 
 ## Additional Resources
 
