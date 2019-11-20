@@ -15,8 +15,9 @@
 
 - Fork and clone `https://git.generalassemb.ly/Interapt/project3-backend-starter`
 - `cd` into the app and `npm install`
-- Run `npm start`. 
 - From the command line run `createdb project3-backend-development`
+- Run `npm start`. 
+
 
 #### Starter End Points
 
