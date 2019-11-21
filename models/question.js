@@ -5,10 +5,11 @@ module.exports = (sequelize, DataTypes) => {
     correct_answer: DataTypes.STRING,
     incorrect_answer1: DataTypes.STRING,
     incorrect_answer2: DataTypes.STRING,
-    incorrect_answer3: DataTypes.STRING
+    incorrect_answer3: DataTypes.STRING,
+    quizId: DataTypes.INTEGER
   }, {});
   question.associate = function(models) {
-    // associations can be defined here
+    question.belongsTo(models.quiz,{ foreignKey: 'quizId'})
   };
   return question;
 };

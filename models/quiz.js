@@ -2,10 +2,12 @@
 module.exports = (sequelize, DataTypes) => {
   const quiz = sequelize.define('quiz', {
     category: DataTypes.STRING,
-    difficulty: DataTypes.STRING
+    difficulty: DataTypes.STRING,
+    instructorId: DataTypes.INTEGER
   }, {});
   quiz.associate = function(models) {
-    // associations can be defined here
+   quiz.belongsTo(models.instructor,{ foreignKey: 'instructorId'})
+   quiz.hasMany(models.question,{foreignKey: 'quizId'})
   };
   return quiz;
 };

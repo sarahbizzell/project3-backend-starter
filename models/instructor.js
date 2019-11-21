@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
     grade_level: DataTypes.INTEGER
   }, {});
   instructor.associate = function(models) {
-    // associations can be defined here
+    instructor.hasMany(models.quiz,{foreignKey: 'instructorId'})
   };
   return instructor;
 };

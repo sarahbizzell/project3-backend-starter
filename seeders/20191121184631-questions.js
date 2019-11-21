@@ -13,6 +13,7 @@ module.exports = {
           incorrect_answer1:'c++',
           incorrect_answer2: 'Python',
           incorrect_answer3: 'JavaScript',
+          quizId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
       },
@@ -22,6 +23,7 @@ module.exports = {
           incorrect_answer1:'divide-and-conquer',
           incorrect_answer2: 'sort',
           incorrect_answer3: 'making a peanut butter sandwich',
+          quizId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
     },
@@ -32,6 +34,7 @@ module.exports = {
           incorrect_answer1:'7',
           incorrect_answer2: '8',
           incorrect_answer3: '3',
+          quizId: 1,
           createdAt: new Date(),
           updatedAt: new Date()
     

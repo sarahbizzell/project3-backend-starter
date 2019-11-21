@@ -7,6 +7,7 @@ module.exports = {
         {
         category: 'Science: Computers',
         difficulty:'easy',
+        instructorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
 
@@ -14,12 +15,14 @@ module.exports = {
       {
         category: 'Science: Computers',
         difficulty:'medium',
+        instructorId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         category: 'Science: Computers',
         difficulty:'hard',
+        instructorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       }
