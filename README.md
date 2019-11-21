@@ -142,3 +142,15 @@ https://project3-backend-test.herokuapp.com/users
 
 
 - [React Relative Paths](https://create-react-app.dev/docs/deployment#building-for-relative-paths)
+
+
+
+
+
+
+# User Stories
+
+1. as an instructor, I would like to create quizzes so that I can give them to my class
+2. as a parent, I want to be able to monitor the quiz material so that I can gauge the quality of my child's education.
+3. as an instructor, I would like to have quizzes created so that my workload is reduced.
+4. as an instructor, I would like to have quizzes created from quizlet so that I know the quality of quiz is high.
