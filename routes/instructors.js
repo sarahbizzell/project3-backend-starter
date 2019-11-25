@@ -45,7 +45,7 @@ router.delete('/:id', (req, res) => {
 //UPDATE AN INSTRUCTOR
 
 router.put('/:id', (req, res) => {          // Works, but Why is it returning an empty object on postman??
-    Instructor.update(req.body, {
+    Instructor.update(req.body.updateInstructor, {
       where: { id: req.params.id }
     })
       .then(instructor => {
