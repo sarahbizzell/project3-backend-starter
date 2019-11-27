@@ -23,18 +23,22 @@ router.get('/:id', (req, res) => {
       })
   })
 
-
+// create quiz
+router.post('/', function (req, res, next) {
+  Quiz.create(req.body.newQuiz)
+    .then(quiz => {
+      res.json({ quiz })
+    })
+});
 
 
 // DELETE A QUIZ
 router.delete('/:id', (req, res) => {
     Quiz.destroy({ where: { id: req.params.id } })
-      .then(() => {
-        return Quiz.findAll()
-      })
-      .then(quiz => {
-        res.json({ quiz})
-      })
+    .then(quiz => {
+      res.json({ quiz })
+    })
+      
   })
 
 
