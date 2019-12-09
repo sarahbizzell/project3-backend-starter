@@ -23,7 +23,7 @@ router.get('/:id', (req, res) => {
   })
 
 
-// Create an instructor
+// create instructor
 router.post('/', function (req, res, next) {
   Instructor.create(req.body.newInstructor)
     .then(instructor=> {

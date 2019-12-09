@@ -24,11 +24,20 @@ router.get('/:id', (req, res) => {
 
 // create a question
 router.post('/', function (req, res, next) {
-  Question.create(req.body)
+  Question.create(req.body.newQuestion)
     .then(question=> {
       res.json({ question })
     })
 });
+
+
+// DELETE A question
+router.delete('/:id', (req, res) => {
+  Question.destroy({ where: { id: req.params.id } })
+    .then(question => {
+      res.json({ question})
+    })
+})
 
 
 
